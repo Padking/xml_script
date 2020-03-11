@@ -21,13 +21,13 @@
   с сохранением результирующего xml-файла в файл с новым именем.
   
   Лог при отсутствии ошибок в xml-, xsl-файлах:
-  ![f](https://github.com/Padking/xml_script/blob/master/screenshots/no_error.jpg)
+  ![f](https://github.com/Padking/xml_script/blob/master/screenshots/no_error.JPG)
   
   Лог при наличии ошибок в xml-файле:
-  ![s](https://github.com/Padking/xml_script/blob/master/screenshots/xml_error.jpg)
+  ![s](https://github.com/Padking/xml_script/blob/master/screenshots/xml_error.JPG)
   
   Лог при наличии ошибок в xsl-файле:
-  ![t](https://github.com/Padking/xml_script/blob/master/screenshots/xsl_error.jpg)
+  ![t](https://github.com/Padking/xml_script/blob/master/screenshots/xsl_error.JPG)
     
 ### Требования к окружению:
 
