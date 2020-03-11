@@ -9,11 +9,11 @@
 
 ### Особенности:
 
-* позволяет задавать пути к файлам: xml, xsd, xsl(t) для преобразования;
-* выполняет операции:
+1. позволяет задавать пути к файлам: xml, xsd, xsl(t) для преобразования;
+2. выполняет операции:
  * по валидации xml-файла,
  * по xslt-трансформации xml-файла;
-* позволяет вести лог по каждой операции.
+3. позволяет вести лог по каждой операции.
 
 ### Результат использования:
   
@@ -21,13 +21,13 @@
   с сохранением результирующего xml-файла в файл с новым именем.
   
   Лог при отсутствии ошибок в xml-, xsl-файлах:
-  ![f](https://github.com/Padking/tgbot/blob/master/screenshots/no_error.jpg)
+  ![f](https://github.com/Padking/xml_script/blob/master/screenshots/no_error.jpg)
   
   Лог при наличии ошибок в xml-файле:
-  ![s](https://github.com/Padking/tgbot/blob/master/screenshots/xml_error.jpg)
+  ![s](https://github.com/Padking/xml_script/blob/master/screenshots/xml_error.jpg)
   
   Лог при наличии ошибок в xsl-файле:
-  ![t](https://github.com/Padking/tgbot/blob/master/screenshots/xsl_error.jpg)
+  ![t](https://github.com/Padking/xml_script/blob/master/screenshots/xsl_error.jpg)
     
 ### Требования к окружению:
 
@@ -40,4 +40,4 @@
 1. определить входные данные # задание значений переменным-константам,
 2. определить вид(ы) желаемых операций в "точке входа скрипта",
 3. `$ python xml_script.py` # исполнение скрипта,
-4. просмотреть результаты операции(й) # по умолчанию в логе "process.log".
+4. просмотреть результаты операции(й) # по умолчанию, в логе "process.log".
